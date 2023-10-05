@@ -10,9 +10,8 @@ import (
 	"github.com/mostlygeek/arp"
 	"github.com/sirupsen/logrus"
 	"net"
-	"time"
-
 	"strconv"
+	"time"
 )
 
 type Msg struct {

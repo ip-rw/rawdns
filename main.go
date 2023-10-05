@@ -15,9 +15,9 @@ import (
 func main() {
 	rdns := dns.NewRawDNS()
 
-	// this needs to be nigh on a second's worth to be sure, otherwise things can break
+	// seems to cope.
 	var nsChan = make(chan string, 1)
-	var responseChan = make(chan *dns.Msg, 50)
+	var responseChan = make(chan *dns.Msg, 1)
 
 	// could make this better (response chan is broken or something iirc - take 5 mins) instead of a waitgroup/timeout
 	go rdns.Run(nsChan, responseChan)

@@ -1,5 +1,5 @@
 # rawdns
-```server rdns_gh (main) # zcat ../rawdns/testdns/open_resolvers.gz|shuf|which go` run main.go >> results 
+```server rdns_gh (main) # zcat ../rawdns/testdns/open_resolvers.gz|shuf|`which go` run main.go >> results 
 go: downloading github.com/benbjohnson/clock v1.3.0
 go: downloading golang.org/x/sys v0.13.0
 INFO[0000] 1 pps. 0rpps. 1/0                            

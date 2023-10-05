@@ -1,5 +1,5 @@
 # rawdns
-server rdns_gh (main) # zcat ../rawdns/testdns/open_resolvers.gz|shuf|which go` run main.go >> results 
+`server rdns_gh (main) # zcat ../rawdns/testdns/open_resolvers.gz|shuf|which go` run main.go >> results 
 go: downloading github.com/benbjohnson/clock v1.3.0
 go: downloading golang.org/x/sys v0.13.0
 INFO[0000] 1 pps. 0rpps. 1/0                            
@@ -18,4 +18,4 @@ INFO[0010] 8007 pps. 4450rpps. 80036/43609
 INFO[0011] 7999 pps. 4593rpps. 88037/48202              
 INFO[0012] 7996 pps. 4529rpps. 96038/52731              
 INFO[0013] 8006 pps. 4463rpps. 104047/57194             
-INFO[0014] 7997 pps. 4608rpps. 112048/61802       
+INFO[0014] 7997 pps. 4608rpps. 112048/61802`
